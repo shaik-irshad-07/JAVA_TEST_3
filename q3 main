@@ -1,0 +1,16 @@
+package dairy.Main;
+
+import dairy.Dairy;
+
+public class main {
+    public static void main(String[] args) {
+        Dairy d = new Dairy();
+
+        d.writeNote("my_diary.txt", "Today I started learning Java File I/O.");
+        d.writeNote("my_diary.txt", "It was a bit confusing, but I'm getting the hang of it.");
+        d.writeNote("my_diary.txt", " I successfully created and copied a file!\n");
+        d.createBackup("my_diary.txt", "diary_backup.txt");
+    }
+}
+
+
